@@ -1,0 +1,224 @@
+/*
+Author : Ahammed Nayeem
+Email: nazmul3771@diu.edu.bd
+*/
+
+/*
+ 
+	====== INDEX ======
+	1. Global CSS
+	2. Header Section
+	3. Information Section 
+	4. Rolling Image Section
+	5. Product Section
+
+	6. Lawyers Section
+	7. Publications Section
+	8. FAQ Section
+	9. Contact Section
+	====================
+*/
+
+/* ====== 1. Global CSS ====== */
+body{
+	background-color:#0a2244;
+}
+section{
+	padding:50px 0px;
+}
+
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+.img-fluid{
+	max-width: 100%;
+    height: auto;
+}
+.no-padding{
+	padding: 0;
+}
+
+h1{
+
+}
+h2{
+	font-size: 40px;
+    font-weight: 400;
+}
+h3{
+
+}
+h4{
+	color:#fff;
+	margin-top: 10px;
+}
+
+p{
+	margin-top: 15px;
+	font-size: 15.3px;
+    color: #667c90;
+    line-height: 25px;
+}
+a{
+	text-decoration: none !important;
+	color: #35699e;
+}
+/* ====== 2. Header Section ====== */
+header{
+	padding: 25px 0px;
+}
+
+header img{
+	height: 60px;
+    width: 185px;
+}
+
+/* ====== 3. Information Section ====== */
+
+.ex-btn{
+	background: transparent;
+    color: white;
+    margin-top: 70px;
+    padding: 7px 25px;
+    border-radius: 25px;
+    border: 1px solid #1650a3;
+}
+.ex-btn:hover{
+	color: #1650a3;
+	border: 1px solid #fff;
+	transition: 0.4s;
+}
+
+/* ====== 4. Rolling Image Section ====== */
+.rolling{
+	background:url(../img/vector.png) no-repeat;
+}
+.roll{
+	padding: 50px 0;
+}
+.roll-img{
+	text-align: center;
+}
+.roll-imgr{
+	text-align: center;
+	padding-left: 50px;
+}
+
+/* ====== 5. Product Section ====== */
+
+.headphone{
+	margin-left: -120px;
+    height: 400px;
+    width: 600px;
+}
+.head-content{
+	margin-top: 100px;
+}
+
+.head-content h2{
+	
+}
+
+.head-content p{
+
+}
+.hd-btn{
+	background: transparent;
+    color: white;
+    margin-top: 50px;
+    padding: 8px 40px;
+    border-radius: 25px;
+    border: 1px solid #1650a3;
+}
+.hd-btn:hover {
+	color: #1650a3;
+	border: 1px solid #fff;
+	transition: 0.4s;
+}
+
+ /* ====== 6. Feature Section ====== */
+
+.down-feature{
+	margin-top: 100px;
+}
+
+/* ====== 7. Power Section ====== */
+
+.power{
+	background-color:#06162d;
+}
+.power-img{
+	margin-left: -42px;
+    height: 500px;
+    width: 700px;
+}
+
+/* ====== 8. Carrosol Section ====== */
+
+.dapp{
+	background-color:#06162d
+}
+
+h5{
+	color: #607188;
+    line-height: 30px;
+    text-align: center;
+    font-weight: inherit;
+}
+
+.author-icon{
+	margin-left: 100px;
+}
+
+.author-p{
+	margin-left: -150px;
+}
+
+/* ====== 8. Download App Section ====== */
+
+.dapp-btn{
+	background: transparent;
+    color: white;
+    margin-top: 80px;
+    margin-left: -10px;
+    padding: 8px 30px;
+    border-radius: 25px;
+    border: 1px solid #1650a3;
+}
+
+.dapp-btn:hover {
+	color: #1650a3;
+	border: 1px solid #fff;
+	transition: 0.4s;
+}
+
+/* ====== 8. Footer Section ====== */
+
+footer{
+		background-color: #06162d;
+		padding: 10px 0;
+}
+
+.border{
+	border-top: 1px solid #1a2231;
+}
+.footer-content{
+	margin-top: 30px;
+}
+.navigation li{
+	display: inline;
+    padding: 0px 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navigation li:hover{
+	color: #fff;
+	transition: 0.4s;
+}
+
+.copyright{
+	margin-top: -15px;
+}
